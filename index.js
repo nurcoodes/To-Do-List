@@ -16,7 +16,7 @@
   /** Attaches necessary event listeners for adding tasks via 'Enter' key and button click. */
   function setupEventListeners() {
     const inputField = document.getElementById('new-task');
-    
+
     // Adds a task when the Enter key is pressed
     inputField.addEventListener('keydown', function(event) {
       if (event.key === 'Enter') {
