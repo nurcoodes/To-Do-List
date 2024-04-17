@@ -15,7 +15,8 @@
 
   /** Attaches necessary event listeners for adding tasks via 'Enter' key and button click. */
   function setupEventListeners() {
-    const inputField = document.getElementById('newTask');
+    const inputField = document.getElementById('new-task');
+    
     // Adds a task when the Enter key is pressed
     inputField.addEventListener('keydown', function(event) {
       if (event.key === 'Enter') {
@@ -30,10 +31,10 @@
 
   /** Creates a new task list item and appends it to the task list. */
   function addTask() {
-    const inputField = document.getElementById('newTask');
+    const inputField = document.getElementById('new-task');
     const taskText = inputField.value.trim();
     if (taskText) {
-      const tasksList = document.getElementById('tasksList');
+      const tasksList = document.getElementById('tasks-list');
       const listItem = createTaskListItem(taskText);
       tasksList.appendChild(listItem);
       inputField.value = ''; // Clears the input field after adding the task
