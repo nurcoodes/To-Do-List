@@ -1,11 +1,11 @@
-/*
-  Name: Nur Ahmed
-  Date: 4/14/2024
-  CSE 154 AD
-  TA: Allan Tran and Max Beard
-  This is the scripting for the To-Do list which implements click and enter functions.
-  It also implements adding a new task items and removal button of specific task item.
-*/
+/**
+ * Name: Nur Ahmed
+ * Date: 4/14/2024
+ * CSE 154 AD
+ * TA: Allan Tran and Max Beard
+ * This is the scripting for the To-Do list which implements click and enter functions.
+ * It also implements adding a new task items and removal button of specific task item.
+ */
 "use strict";
 (function() {
   /** Sets up the initial event listeners when the document is fully loaded. */
@@ -16,7 +16,6 @@
   /** Attaches necessary event listeners for adding tasks via 'Enter' key and button click. */
   function setupEventListeners() {
     const inputField = document.getElementById('newTask');
-    
     // Adds a task when the Enter key is pressed
     inputField.addEventListener('keydown', function(event) {
       if (event.key === 'Enter') {

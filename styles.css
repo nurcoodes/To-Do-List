@@ -11,15 +11,15 @@ body, li {
   align-items: center;
 }
 
-section, input[type=text], button, li, .remove-btn {
+section, input[type="text"], button, li, .remove-btn {
   box-sizing: border-box;
 }
 
-input[type=text], button {
+input[type="text"], button {
   width: 100%;
 }
 
-input[type=text], button, li {
+input[type="text"], button, li {
   padding: 10px;
 }
 
