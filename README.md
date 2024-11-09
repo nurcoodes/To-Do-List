@@ -7,7 +7,6 @@ This is a simple web-based to-do list application built with HTML, CSS, and Java
 - **Add Tasks**: Users can add new tasks to the list.
 - **Mark Tasks as Complete**: Users can mark tasks as complete, changing their appearance.
 - **Remove Tasks**: Users can delete tasks from the list.
-- **Clear Completed Tasks**: Users can remove all completed tasks at once.
 
 ## Files
 - **index.html**: The main HTML structure for the to-do list.
@@ -17,8 +16,7 @@ This is a simple web-based to-do list application built with HTML, CSS, and Java
 ## How to Use
 1. **Add a Task**: Type a task in the input box and click the "Add" button or press Enter.
 2. **Mark Task as Complete**: Click on a task to mark it as complete. Completed tasks will be styled differently.
-3. **Remove a Task**: Click the "X" button next to a task to delete it.
-4. **Clear Completed Tasks**: Click the "Clear Completed" button to remove all completed tasks.
+3. **Remove a Task**: Click the red "Remove" button next to a task to delete it.
 
 ## Code Highlights
 - Uses `addEventListener` to handle events such as clicks and keypresses.
